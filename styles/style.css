@@ -1,3 +1,7 @@
 .font-lato {
     font-family: "Lato", sans-serif;
 }
+
+.bg-light-black {
+    background-color: rgb(31, 31, 31);
+}

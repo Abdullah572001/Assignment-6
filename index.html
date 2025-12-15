@@ -26,50 +26,138 @@
   </head>
 
   <body class="font-lato">
-
     <header class="w-11/12 mx-auto py-4">
+      <!-- navbar section -->
+      <nav class="flex justify-between items-center">
+        <div>
+          <a class="flex gap-3 items-center" href="">
+            <img class="w-6 h-6" src="./images/logo.webp" alt="" />
+            <h2 class="text-3xl font-bold">Paddy</h2>
+          </a>
+        </div>
 
-        <!-- navbar section -->
-         <nav class="flex justify-between items-center">
-            <div>
-                <a class="flex gap-3 items-center" href="">
-                    <img class="w-6 h-6" src="./images/logo.webp" alt="">
-                    <h2 class="text-3xl font-bold">Paddy</h2>
-                </a>
-            </div>
+        <div class="hidden md:block">
+          <ul class="flex gap-8 text-gray-400">
+            <li class="">Home</li>
+            <li>Shop</li>
+            <li>Contact</li>
+          </ul>
+        </div>
 
-            <div class="hidden md:block">
-                <ul class="flex gap-8 text-gray-400">
-                    <li class="">Home</li>
-                    <li>Shop</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
+        <div>
+          <div class="p-2 border rounded-full border-gray-400">
+            <img
+              class="w-6 h-6"
+              src="https://img.icons8.com/?size=80&id=114064&format=png"
+              alt=""
+            />
+          </div>
+        </div>
+      </nav>
 
-            <div>
-                <div class="p-2 border rounded-full border-gray-400">
-                    <img class="w-6 h-6" src="https://img.icons8.com/?size=80&id=114064&format=png" alt="">
-                </div>
-            </div>
-         </nav>
+      <!-- banner section -->
+      <section class="text-center mt-14">
+        <p class="font-bold text-2xl text-gray-400">
+          Bringing Families Together ❤️‍🔥
+        </p>
+        <h2 class="text-5xl font-bold my-6">
+          Your Path to Adoption <br />
+          Starts Here
+        </h2>
+        <p class="text-xs text-gray-400">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking <br />
+          at its layout. The point of using Lorem Ipsum is that it has a.
+        </p>
 
-         <!-- banner section -->
-          <section class="text-center mt-14 ">
-            <p class="font-bold text-2xl text-gray-400">Bringing Families Together ❤️‍🔥 </p>
-            <h2 class="text-5xl font-bold my-6">Your Path to Adoption <br> Starts Here</h2>
-            <p class="text-xs text-gray-400">It is a long established fact that a reader will be distracted by the readable content of a page when looking <br> at its layout. The point of using Lorem Ipsum is that it has a.</p>
+        <button class="btn my-6 bg-[#0E7A81] rounded-lg text-white">
+          View More
+        </button>
 
-            <button class="btn my-6">View More</button>
-
-            <img src="./images/pet.webp" alt="">
-          </section>
+        <img class="mx-auto" src="./images/pet.webp" alt="" />
+      </section>
     </header>
 
+    <main class="py-8 w-11/12 mx-auto">
+      <h2 class="text-3xl font-bold text-center">Adopt  Your  Best Friend</h2>
+      <p class="text-xs text-center mt-4">It is a long established fact that a reader will be distracted by the readable content of a <br> page when looking at its layout. The point of using Lorem Ipsum is that it has a.</p>
 
-    <main></main>
+      <!-- all categories -->
+       <section id="categories" class="grid grid-cols-2 md:grid-cols-4 gap-4">
+       </section>
+
+       <!--  -->
+       <section class="flex justify-between items-center my-6">
+        <h2 class="text-xl font-bold">Best Deal For you</h2>
+        <button class="btn text-white bg-[#0E7A81]">Sort by Price</button>
+       </section>
 
 
-    <footer></footer>
+       <!-- pet section -->
+        <section class="md:flex">
+          <!-- show pets -->
+          <div id="pet-section" class="w-3/4 grid gap-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1"></div>
 
+          <!-- like div -->
+          <div class="w-1/4 border rounded-md ml-4"></div>
+        </section>
+
+    </main>
+
+    <footer class="bg-black p-8 md:px-36 md:py-24 md:flex justify-between text-white">
+      <div>
+        <a class="flex gap-3 items-center" href="">
+          <img class="w-6 h-6" src="./images/logo.webp" alt="" />
+          <h2 class="text-3xl font-bold">Paddy</h2>
+        </a>
+
+        <p class="text-base text-gray-300 mt-6 leading-8">
+          Location: av. Washington 165, NY CA <br />
+          54003 <br />
+          Phone: +31 85 964 47 25 <br />
+          Email: info@yourdomain.com <br />
+          Openings hours: 9.00 AM - 5.00 PM
+        </p>
+
+        <div class="flex gap-4 mt-8">
+          <img
+            class="w-8 h-8"
+            src="https://ouch-prod-var-cdn.icons8.com/pm/illustrations/thumbs/tI9R6bfkrG4KokkS.webp"
+            alt=""
+          />
+          <img
+            class="w-8 h-8"
+            src="https://ouch-prod-var-cdn.icons8.com/rk/illustrations/thumbs/tSsXCVJCHuBs4Rbg.webp"
+            alt=""
+          />
+          <img
+            class="w-8 h-8"
+            src="https://ouch-prod-var-cdn.icons8.com/dm/illustrations/thumbs/0SV2oqVDzPDtBgxP.webp"
+            alt=""
+          />
+          <img
+            class="w-8 h-8"
+            src="https://ouch-prod-var-cdn.icons8.com/rz/illustrations/thumbs/X4-3zLZmFWDLFWl6.webp"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div>
+        <h2 class="text-xl font-bold">Useful Links</h2>
+        <p class="mt-6 leading-8 text-gray-300">Home <br> About Us <br> Animals <br> Foundation <br> Contact</p>
+      </div>
+
+      <div>
+        <h2 class="text-xl font-bold">Drop a Message</h2>
+
+        <input class="h-9 mt-6 rounded-md bg-light-black border-none" type="text"> <br>
+        <button class="btn w-full mt-3 border-none text-white bg-[#0E7A81]">Subscribe</button>
+      </div>
+
+    </footer>
+
+    <!-- script line here -->
+     <script src="./js/script.js"></script>
   </body>
 </html>
