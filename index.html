@@ -79,32 +79,46 @@
     </header>
 
     <main class="py-8 w-11/12 mx-auto">
-      <h2 class="text-3xl font-bold text-center">Adopt  Your  Best Friend</h2>
-      <p class="text-xs text-center mt-4">It is a long established fact that a reader will be distracted by the readable content of a <br> page when looking at its layout. The point of using Lorem Ipsum is that it has a.</p>
+      <h2 class="text-3xl font-bold text-center">Adopt Your Best Friend</h2>
+      <p class="text-xs text-center mt-4">
+        It is a long established fact that a reader will be distracted by the
+        readable content of a <br />
+        page when looking at its layout. The point of using Lorem Ipsum is that
+        it has a.
+      </p>
 
       <!-- all categories -->
-       <section id="categories" class="grid grid-cols-2 md:grid-cols-4 gap-4">
-       </section>
+      <section
+        id="categories"
+        class="grid grid-cols-2 md:grid-cols-4 gap-4"
+      ></section>
 
-       <!--  -->
-       <section class="flex justify-between items-center my-6">
+      <!--  -->
+      <section class="flex justify-between items-center my-6">
         <h2 class="text-xl font-bold">Best Deal For you</h2>
         <button class="btn text-white bg-[#0E7A81]">Sort by Price</button>
-       </section>
+      </section>
 
 
-       <!-- pet section -->
-        <section class="md:flex">
-          <!-- show pets -->
-          <div id="pet-section" class="w-3/4 grid gap-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1"></div>
+      <!-- loader -->
+      <div id="spinner"></div>
 
-          <!-- like div -->
-          <div class="w-1/4 border rounded-md ml-4"></div>
-        </section>
+      <!-- pet section -->
+      <section class="md:flex">
+        <!-- show pets -->
+        <div
+          id="pet-section"
+          class="md:w-3/4 grid gap-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1s"
+        ></div>
 
+        <!-- like div -->
+        <div class="w-1/4 border rounded-md border-gray-300 ml-4"></div>
+      </section>
     </main>
 
-    <footer class="bg-black p-8 md:px-36 md:py-24 md:flex justify-between text-white">
+    <footer
+      class="bg-black p-8 md:px-36 md:py-24 md:flex justify-between text-white"
+    >
       <div>
         <a class="flex gap-3 items-center" href="">
           <img class="w-6 h-6" src="./images/logo.webp" alt="" />
@@ -145,19 +159,30 @@
 
       <div>
         <h2 class="text-xl font-bold">Useful Links</h2>
-        <p class="mt-6 leading-8 text-gray-300">Home <br> About Us <br> Animals <br> Foundation <br> Contact</p>
+        <p class="mt-6 leading-8 text-gray-300">
+          Home <br />
+          About Us <br />
+          Animals <br />
+          Foundation <br />
+          Contact
+        </p>
       </div>
 
       <div>
         <h2 class="text-xl font-bold">Drop a Message</h2>
 
-        <input class="h-9 mt-6 rounded-md bg-light-black border-none" type="text"> <br>
-        <button class="btn w-full mt-3 border-none text-white bg-[#0E7A81]">Subscribe</button>
+        <input
+          class="h-9 mt-6 rounded-md bg-light-black border-none"
+          type="text"
+        />
+        <br />
+        <button class="btn w-full mt-3 border-none text-white bg-[#0E7A81]">
+          Subscribe
+        </button>
       </div>
-
     </footer>
 
     <!-- script line here -->
-     <script src="./js/script.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
