@@ -19,4 +19,4 @@
   - Destructuring.
   - Spread & Rest Operators (...).
 ### Live link to the deployed project.
-  - https://stunning-puffpuff-a2cbe7.netlify.app/#categories
+  - https://stunning-puffpuff-a2cbe7.netlify.app
