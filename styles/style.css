@@ -5,6 +5,9 @@
 .bg-light-black {
     background-color: rgb(31, 31, 31);
 }
+.bg-light-blue{
+  background-color: rgba(14, 122, 129, 0.1);
+}
 
  #spinner {
         display: none;
@@ -33,3 +36,10 @@
   border-radius: 120px;
   background-color: rgba(14, 122, 129, 0.1);
 }
+
+/* Liked state for like buttons */
+.like-btn.liked{
+  background-color: #0E7A81 !important;
+  color: #fff !important;
+}
+

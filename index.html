@@ -70,9 +70,11 @@
           at its layout. The point of using Lorem Ipsum is that it has a.
         </p>
 
-        <button class="btn my-6 bg-[#0E7A81] rounded-lg text-white">
-          View More
-        </button>
+        <a href="#categories"
+          ><button class="btn my-6 bg-[#0E7A81] rounded-lg text-white">
+            View More
+          </button></a
+        >
 
         <img class="mx-auto" src="./images/pet.webp" alt="" />
       </section>
@@ -96,9 +98,8 @@
       <!--  -->
       <section class="flex justify-between items-center my-6">
         <h2 class="text-xl font-bold">Best Deal For you</h2>
-        <button class="btn text-white bg-[#0E7A81]">Sort by Price</button>
+        <button onclick="loadSortByPrice()" class="btn text-white bg-[#0E7A81]">Sort by Price</button>
       </section>
-
 
       <!-- loader -->
       <div id="spinner"></div>
@@ -112,8 +113,14 @@
         ></div>
 
         <!-- like div -->
-        <div class="w-1/4 border rounded-md border-gray-300 ml-4"></div>
+        <div
+          id="like-container"
+          class="w-1/4 border p-5 rounded-md border-gray-300 ml-4 grid grid-cols-2 gap-5 grid-rows-12"
+        ></div>
       </section>
+
+      <!-- Open the modal using ID.showModal() method -->
+      <div id="modal-container"></div>
     </main>
 
     <footer
