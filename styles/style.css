@@ -26,3 +26,10 @@
           transform: rotate(360deg);
         }
       }
+
+
+
+.btn-style{
+  border-radius: 120px;
+  background-color: rgba(14, 122, 129, 0.1);
+}

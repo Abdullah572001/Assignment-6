@@ -12,7 +12,7 @@ const showCategories = (categoryNames) => {
     // console.log(category)
 
     categories.innerHTML += `
-            <div onclick="categoryButton('${category.category}')" class="p-6 flex gap-3 items-center justify-center my-4 border rounded-xl cursor-pointer">
+            <div id="${category.category}" onclick="categoryButton('${category.category}')" class="category-btn p-6 flex gap-3 items-center justify-center my-4 border rounded-xl cursor-pointer">
                 <img src="${category.category_icon}" alt="">
                 <h2 class="text-xl font-bold">${category.category}</h2>
             </div>
@@ -113,6 +113,9 @@ const loadByCategory = (categoryName) => {
 
 // click category button
 const categoryButton = (categoryName) => {
+  // console.log(categoryName)
+  addBtnClass(categoryName)
+
   const petContainer = document.getElementById("pet-section");
   petContainer.innerHTML = "";
 
@@ -123,3 +126,15 @@ const categoryButton = (categoryName) => {
     loadByCategory(categoryName);
   }, 2000);
 };
+
+// add and remove btn-style class
+const addBtnClass = name =>{
+  // console.log(name);
+  
+  const categoryBtn = document.getElementsByClassName('category-btn');
+  for (const btn of categoryBtn) {
+    btn.classList.remove('btn-style')
+  }
+
+  document.getElementById(name).classList.add("btn-style")
+}
